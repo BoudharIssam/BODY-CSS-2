@@ -1,0 +1,23 @@
+body {
+  background: #fff;
+  color: #444;
+  font-family: "Avenir Next", Avenir, "Helvetica Neue", "Lato", "Segoe UI",
+    Helvetica, Arial, sans-serif;
+}
+
+.section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.section:nth-of-type(odd):not(:first-child) {
+  color: #fff;
+  background: #2a282b;
+}
+
+.header {
+  background: #d94f5c;
+  color: #fff;
+}
